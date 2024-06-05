@@ -9,17 +9,10 @@
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
             var isAndroid = /android/i.test(userAgent);
             var isiOS = /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream;
-
             if (isiOS) {
-                
-                
                     window.location = 'https://apps.apple.com/us/app/keynote/id361285480'; // Replace with your app's App Store URL
-               
             } else if (isAndroid) {
-               
-            
                     window.location = 'https://play.google.com/store/apps/details?id=com.lutsgames.IdleSuperpowers&pcampaignid'; // Replace with your app's Play Store URL
-              
             } else {
                 window.location = 'https://play.google.com/store/apps/details?id=com.lutsgames.IdleSuperpowers&pcampaignid=merch_published_cluster_promotion_battlestar_browse_all_games&hl=en';
             }
