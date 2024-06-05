@@ -11,15 +11,15 @@
             var isiOS = /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream;
 
             if (isiOS) {
-                window.location = 'gatch://tictac.renxo.tech?ServerConnection&NOZK';
-                setTimeout(function () {
+                
+                
                     window.location = 'https://apps.apple.com/us/app/keynote/id361285480'; // Replace with your app's App Store URL
-                }, 2500);
+               
             } else if (isAndroid) {
-                window.location = 'intent://tictac.renxo.tech?ServerConnection&NOZK#Intent;scheme=gatch;package=com.yourapp.package;end';
-                setTimeout(function () {
+               
+            
                     window.location = 'https://play.google.com/store/apps/details?id=com.lutsgames.IdleSuperpowers&pcampaignid'; // Replace with your app's Play Store URL
-                }, 2500);
+              
             } else {
                 window.location = 'https://play.google.com/store/apps/details?id=com.lutsgames.IdleSuperpowers&pcampaignid=merch_published_cluster_promotion_battlestar_browse_all_games&hl=en';
             }
@@ -28,7 +28,7 @@
 </head>
 <body onload="openApp()">
     <h1>Redirecting to Tic Tac Toe...</h1>
-    <p>If you are not redirected, <a href="https://tictactoe-gatch.netlify.app/">click here</a>.</p>
+    <p>If you are not redirected, <a href="https://jijo43.github.io/deepLink/">click here</a>.</p>
 </body>
 </html>
 
